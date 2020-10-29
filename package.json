@@ -1,6 +1,6 @@
 {
   "name": "keplergl-dataset-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small untility for assembling datasets for use with the kepler.gl geospatial analysis library",
   "main": "index.js",
   "directories": {
