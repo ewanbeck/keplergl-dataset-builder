@@ -1,0 +1,28 @@
+{
+  "name": "keplergl-dataset-builder",
+  "version": "1.0.0",
+  "description": "A small untility for assembling datasets for use with the kepler.gl geospatial analysis library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewanbeck/keplergl-dataset-builder.git"
+  },
+  "keywords": [
+    "keplergl",
+    "kepler.gl",
+    "geospatial",
+    "javascript"
+  ],
+  "author": "Ewan Beckett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewanbeck/keplergl-dataset-builder/issues"
+  },
+  "homepage": "https://github.com/ewanbeck/keplergl-dataset-builder#readme"
+}
