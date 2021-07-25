@@ -1,5 +1,5 @@
 const dataArrayRules = {
-  reg_ex: /^(?=.*\d)(?=.*[a-z])[a-z0-9]{8}$/,
+  reg_ex: /^(?=.*\d)(?=.*[a-z])[a-z0-9]{8,10}$/,
   arrLength: 2,
   idArgumentTypes: ['string'],
   dataArgumentTypes: ['string', 'object']
@@ -39,6 +39,13 @@ const testIdDataArray = (a, j) => {
   }
   return;
 };
+
+/**
+ * Create a dataset object to be passed to kepler.gl library
+ * @param {array} data 
+ * @param {function} processFunction
+ * @returns {Array} Assembled dataset object to be passed into kepler.gl library
+ */
 
 const keplerglDatasetBuilder = (data, processFunction) => {
   let response = [];
